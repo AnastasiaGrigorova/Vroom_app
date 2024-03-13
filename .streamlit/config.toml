@@ -1,0 +1,14 @@
+[server]
+headless = true
+port = 10000
+
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 10000
+
+[theme]
+primaryColor="#C1121F"
+backgroundColor="#023047"
+secondaryBackgroundColor="#669BBC"
+textColor="#FDF0D5"
+font="sans serif"
