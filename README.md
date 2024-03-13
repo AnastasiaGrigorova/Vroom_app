@@ -1,6 +1,6 @@
 # vroom_app
 __project description__
-link to my app
+__link to my app__ https://vroom-app.onrender.com/
 
 The Vroom App is a tool designed to assist users in selecting the most suitable used car based on their preferences and requirements. This app provides valuable insights to streamline your car purchasing process.
 
@@ -17,18 +17,12 @@ The following methods and libraries were employed in the development of this pro
 * Matplotlib.pyplot
 * Streamlit
 
-To launch the Used Car Chooser App on your local machine, follow these steps:
+To launch the Vroom App on your local machine, follow these steps:
 
 Clone the Repository:
-git clone <repository-url>
+git clone https://github.com/AnastasiaGrigorova/Vroom_app
 
-Navigate to the Project Directory:
-cd used-car-chooser-app
-
-Install Dependencies:
-pip install -r requirements.txt
-
-Access the App:
+Access the App: https://vroom-app.onrender.com/
 
 Input Preferences:
 Fill in the required fields and submit to receive personalized used car recommendations. Click on the desirable model, type or condition. Select the price rage of your preference.
