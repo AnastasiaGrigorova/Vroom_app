@@ -1,6 +1,7 @@
 # vroom_app
-__project description__
-__link to my app__ https://vroom-app.onrender.com/
+## __project description__
+
+### __link to my app__ https://vroom-app.onrender.com/
 
 The Vroom App is a tool designed to assist users in selecting the most suitable used car based on their preferences and requirements. This app provides valuable insights to streamline your car purchasing process.
 
