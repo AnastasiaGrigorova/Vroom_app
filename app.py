@@ -47,7 +47,7 @@ st.header('Vehicle types by manufacturer')
 st.write(px.histogram(df, x='model', color='type',color_discrete_sequence=px.colors.qualitative.Bold))
 
 #------------------------------------6-------------------------------
-st.header('Histogram of `condition` vs `mileage`')
+st.header('Histogram of condition vs mileage')
 
 # Generate histogram using Plotly Express
 histogram = px.histogram(df, x='odometer', color='condition',color_discrete_sequence=px.colors.qualitative.Bold)
@@ -58,8 +58,10 @@ histogram.update_yaxes(range=[0, 800])
 st.plotly_chart(histogram)
 
 
+st.header('Distribution of Price by Model Year')
+
 # Create a scatter plot for price by year
-scatter_plot = px.scatter(df, x='model_year', y='price', title='Distribution of Price by Model Year', color_discrete_sequence=px.colors.qualitative.Bold)
+scatter_plot = px.scatter(df, x='model_year', y='price', color_discrete_sequence=px.colors.qualitative.Bold)
 scatter_plot.update_yaxes(range=[0, 150000])
 scatter_plot.update_xaxes(range=[1960, 2020])
 # Display the scatter plot
@@ -67,7 +69,7 @@ st.plotly_chart(scatter_plot)
 
 #-------------------------------7-------------------------
 
-st.header('Average rice for top 10 most frequent models)')
+st.header('Average price for top 10 most frequent models')
 # Get the top 10 most popular models
 top_10_models = df['model'].value_counts().head(10).index.tolist()
 
